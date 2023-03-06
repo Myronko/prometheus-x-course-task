@@ -1,0 +1,10 @@
+.error {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: red;
+}
+
+.error-404 {
+    margin: 20% 0;
+}

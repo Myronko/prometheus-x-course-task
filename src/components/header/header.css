@@ -1,0 +1,58 @@
+body,hr {
+    margin: 0;
+}
+
+.header-prometeus {
+    text-align: center;
+    margin: 0;
+}
+
+.top {
+    border: 1px solid;
+}
+
+.bottom {
+    color: darkgray;
+    font-weight: bold;
+    border: 1px solid darkgray;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-form {
+    display: flex;
+    align-items: center;
+}
+
+.header-h4 {
+    margin-left: 20px;
+}
+
+.header-out {
+    margin: 0 20px;
+    border-radius: 5px;
+    border-color: #c4b5b5;
+    padding: 5px 20px;
+    border-width: 1px;
+}
+
+.test-user-book {
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    border-width: 1px;
+}
+
+.user-name {
+    margin: 0 20px;
+    font-weight: bolder;
+}
