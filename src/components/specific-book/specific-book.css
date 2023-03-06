@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;  
+}
+
+.books {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+.book-price {
+    border-style: dotted;
+}
+.price {
+    margin-left: 140px;
+    font-weight: bolder;
+}
+.total-price {
+    margin-left: 119px;
+    font-weight: bolder;
+}
+.book-cart {
+    margin-left: 133px;
+    border-radius: 5px;
+    border-color: #c4b5b5;
+    border-width: 1px;
+    padding: 6px;
+}
+.count {
+    width: 45px;
+    height: 25px;
+    border-radius: 12px;
+    border-width: 1px;
+    margin-left: 114px;
+}
+.description {
+    margin: 10px 20px;
+}

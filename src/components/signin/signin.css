@@ -1,0 +1,40 @@
+.user {
+    margin: 5%;
+}
+.user-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user-label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: -15px;
+}
+
+#user-name {
+    text-align: center;
+    border: 1px solid darkgray;
+    border-radius: 3px;
+    padding: 7px 0;
+    width: 200px;
+    font-size: 14px;
+}
+.user-submit {
+    width: 200px;
+    border: 1px solid darkgray;
+    border-radius: 3px;
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+@media screen and (max-width: 320px) {
+    #user-name, .user-submit {
+      width: 94%;
+    }
+    .user-img {
+      width: 200px;
+      height: 200px;
+    }
+
+  }

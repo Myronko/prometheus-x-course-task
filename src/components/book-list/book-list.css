@@ -1,0 +1,55 @@
+.search-books {
+    margin: 30px 20px; 
+}
+ 
+.search {
+    margin-bottom: 30px;
+}
+.search-book {
+    margin-right: 30px;
+    border: 1px solid darkgrey;
+    padding: 5px;
+    width: 420px;
+}
+.search-price {
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    padding: 5px;
+    width: 120px;
+}
+.book-names {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.book-name {
+    width: 30%;
+    margin-bottom: 15px;
+    border: 2px solid darkgray;
+}
+.book {
+    margin: 10px;
+}
+
+.book p {
+    margin: 0;
+}
+.book-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.book-button {
+    padding: 8px 20px;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: #c4b5b5;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.book-img {
+    width: 100%;
+    height: 200px;
+}
